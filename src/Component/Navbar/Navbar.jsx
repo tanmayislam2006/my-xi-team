@@ -4,7 +4,7 @@ import CoinLogo from"../../assets/coin.png"
 
 const Navbar = ({blance}) => {
   return (
-    <div className="flex justify-between items-center max-w-6xl mx-auto py-3">
+    <div className="flex justify-between items-center max-w-6xl mx-auto py-3 bg-blue-100 px-2 rounded-lg">
       {/* logo and bandname  */}
       <div className="flex items-center gap-2">
         <div className="w-12 h-12">
