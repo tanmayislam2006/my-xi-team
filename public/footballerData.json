@@ -1,0 +1,114 @@
+{
+    "players": [
+      {
+        "playerId": 1,
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "countryFlag": "https://flagcdn.com/ar.svg",
+        "image": "https://i.ibb.co.com/3Yd33j4r/messi.webp",
+        "position": "Forward",
+        "foot": "Left",
+        "currentClub": "Inter Miami",
+        "marketValue": 2000
+      },
+      {
+        "playerId": 2,
+        "name": "Cristiano Ronaldo",
+        "country": "Portugal",
+        "countryFlag": "https://flagcdn.com/pt.svg",
+        "image": "https://i.ibb.co.com/whWRQq3r/ronaldo.jpg",
+        "position": "Forward",
+        "foot": "Right",
+        "currentClub": "Al Nassr",
+        "marketValue": 450
+      },
+      {
+        "playerId": 3,
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "countryFlag": "https://flagcdn.com/fr.svg",
+        "image": "https://i.ibb.co.com/VcvfMsjH/mbappe.jpg",
+        "position": "Forward",
+        "foot": "Right",
+        "currentClub": "Paris Saint-Germain",
+        "marketValue": 260
+      },
+      {
+        "playerId": 4,
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "countryFlag": "https://flagcdn.com/be.svg",
+        "image": "https://i.ibb.co.com/35FccwYy/kevendebrunai.jpg",
+        "position": "Midfielder",
+        "foot": "Right",
+        "currentClub": "Manchester City",
+        "marketValue": 156
+      },
+      {
+        "playerId": 5,
+        "name": "Erling Haaland",
+        "country": "Norway",
+        "countryFlag": "https://flagcdn.com/no.svg",
+        "image": "https://i.ibb.co.com/KcDtzMvp/haland.jpg",
+        "position": "Striker",
+        "foot": "Left",
+        "currentClub": "Manchester City",
+        "marketValue": 170
+      },
+      {
+        "playerId": 6,
+        "name": "Neymar Jr.",
+        "country": "Brazil",
+        "countryFlag": "https://flagcdn.com/br.svg",
+        "image": "https://i.ibb.co.com/ksPZj444/neymar.jpg",
+        "position": "Forward",
+        "foot": "Right",
+        "currentClub": "Al Hilal",
+        "marketValue":300
+      },
+      {
+        "playerId": 7,
+        "name": "Virgil van Dijk",
+        "country": "Netherlands",
+        "countryFlag": "https://flagcdn.com/nl.svg",
+        "image": "https://i.ibb.co.com/mVPSHnms/vandaik.jpg",
+        "position": "Defender",
+        "foot": "Right",
+        "currentClub": "Liverpool",
+        "marketValue": 220
+      },
+      {
+        "playerId": 8,
+        "name": "Luka Modrić",
+        "country": "Croatia",
+        "countryFlag": "https://flagcdn.com/hr.svg",
+        "image": "https://i.ibb.co.com/GQNTzqX0/madrich.jpg",
+        "position": "Midfielder",
+        "foot": "Right",
+        "currentClub": "Real Madrid",
+        "marketValue": 119
+      },
+      {
+        "playerId": 9,
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "countryFlag": "https://flagcdn.com/pl.svg",
+        "image": "https://i.ibb.co.com/XxZbRLJ3/Lewandowski.jpg",
+        "position": "LeftWinger",
+        "foot": "Right",
+        "currentClub": "Barcelona",
+        "marketValue": 60
+      },
+      {
+        "playerId": 10,
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "countryFlag": "https://flagcdn.com/eg.svg",
+        "image": "https://i.ibb.co.com/TDzyfx6H/Salah.jpg",
+        "position": "Forward",
+        "foot": "Left",
+        "currentClub": "Liverpool",
+        "marketValue": 280
+      }
+    ]
+  }
