@@ -21,7 +21,7 @@ const Navbar = ({blance}) => {
           <a href="" className="hover:underline"><li className="text-gray-600">Schedules</li></a>
         </ul>
         <div className="">
-          <button className=" flex gap-2 items-center border rounded-lg px-4 py-2 font-bold ">
+          <button className=" flex gap-2 items-center border border-gray-400 rounded-lg px-4 py-2 font-bold ">
             $ {blance} <img src={CoinLogo} alt="" className="w-6 h-6" /> 
           </button>
         </div>
