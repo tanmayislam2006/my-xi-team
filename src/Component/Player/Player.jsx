@@ -14,7 +14,7 @@ const Player = ({
     fetch("footballerData.json").then((res) =>
       res.json().then((data) => setSelectedPlayer(data.players))
     );
-  });
+  },[]);
   return (
     <div className="">
       {/* button control */}
@@ -62,7 +62,7 @@ const Player = ({
             ></AllSelectedPlayers>
           ))}
       </div>
-      
+
     </div>
   );
 };
