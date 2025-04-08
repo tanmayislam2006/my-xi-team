@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AvailablePlayer from "./Available-Player/AvailablePlayer";
-
+import AllSelectedPlayers from "./Selected-Player/SelectedPlayer";
 const Player = ({
   playerVeiw,
   setPlayerVeiw,
@@ -8,6 +8,7 @@ const Player = ({
   setSelectedPlayer,
   handleChoosePlayer,
   chosenPlayer,
+  handleRemovePlayer,
 }) => {
   useEffect(() => {
     fetch("footballerData.json").then((res) =>
@@ -52,7 +53,16 @@ const Player = ({
               handleChoosePlayer={handleChoosePlayer}
             ></AvailablePlayer>
           ))}
+        {playerVeiw === "selected" &&
+          chosenPlayer.map((p) => (
+            <AllSelectedPlayers
+              key={p.playerId}
+              player={p}
+              handleRemovePlayer={handleRemovePlayer}
+            ></AllSelectedPlayers>
+          ))}
       </div>
+      
     </div>
   );
 };

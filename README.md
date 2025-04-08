@@ -1,12 +1,58 @@
-# React + Vite
+# 🏏 BPL Dream 11 - Player Selection Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **XI TEAM**, a React-based web application where users can build their own football dream team by selecting players within a coin budget. The app includes interactive features, real-time notifications, and player management.
 
-Currently, two official plugins are available:
+## 🚀 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> https://select-player.surge.sh/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- ⚛️ React.js (with Hooks)
+- 💅 TailwindCSS for styling
+- 🍞 React-Toastify for notifications
+- 🧠 JavaScript (ES6+)
+- 📦 Vite (React Project Setup)
+- 🗃️ LocalStorage (for optional newsletter feature)
+
+---
+
+## 🌟 Key Features
+
+### ✅ Player Management
+- Choose from 10–15 players and add them to your team.
+- Remove any selected player anytime.
+- Displays available coins and deducts on each player selection.
+
+### 🔄 Toggling Views
+- Switch between **Available Players** and **Selected Players**.
+- Visual feedback on player count and selection status.
+
+### ⚠️ Smart Validations
+- Prevents duplicate selections.
+- Limits selection to 6 players.
+- Ensures users have enough coins before picking a player.
+- All alerts shown via elegant **React-Toastify** toasts.
+
+---
+
+## 📰 Optional Feature
+
+- Newsletter subscription that stores email in **LocalStorage**.
+- Personalized greeting shown on reload if email is saved.
+
+---
+
+## 🖼️ Screenshots
+
+> Add screenshots here (UI with player cards, selected players, toasts, etc.)
+
+---
+
+## 📁 Project Setup
+
+```bash
+npm install
+npm run dev

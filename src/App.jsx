@@ -15,10 +15,7 @@ const App = () => {
   const [selectedPlayer, setSelectedPlayer] = useState([]);
 
   const [chosenPlayer, setChosenPlayer] = useState([]);
-  console.log(chosenPlayer);
   const handleChoosePlayer = (player) => {
-    const playersSelected = [...chosenPlayer, player];
-    setChosenPlayer(playersSelected);
     const alreadyAdded = chosenPlayer.find(
       (p) => p.playerId === player.playerId
     );
@@ -27,6 +24,8 @@ const App = () => {
       toast.error(`${player.name} murrobi is already added!`);
       return;
     }
+    const playersSelected = [...chosenPlayer, player];
+    setChosenPlayer(playersSelected);
     if (blance < player.marketValue) {
       toast.error("Taka nai Miya");
       return;
@@ -38,6 +37,11 @@ const App = () => {
 
     toast.success(`${player.name} murobbi is added`);
     setBlance(blance - player.marketValue);
+  };
+  const handleRemovePlayer = (player) => {
+    setChosenPlayer(chosenPlayer.filter((p) => p.playerId !== player.playerId));
+    toast.success(`${player.name} is removed`);
+    setBlance(blance + player.marketValue);
   };
   return (
     <div className="font-sora max-w-6xl mx-auto">
@@ -51,6 +55,7 @@ const App = () => {
         setSelectedPlayer={setSelectedPlayer}
         handleChoosePlayer={handleChoosePlayer}
         chosenPlayer={chosenPlayer}
+        handleRemovePlayer={handleRemovePlayer}
       ></Player>
     </div>
   );
