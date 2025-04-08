@@ -1,4 +1,4 @@
-# 🏏 BPL Dream 11 - Player Selection Web App
+# XI FOOTBALL TEAM - Player Selection Web App
 
 Welcome to **XI TEAM**, a React-based web application where users can build their own football dream team by selecting players within a coin budget. The app includes interactive features, real-time notifications, and player management.
 
