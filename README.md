@@ -2,9 +2,11 @@
 
 Welcome to **XI TEAM**, a React-based web application where users can build their own football dream team by selecting players within a coin budget. The app includes interactive features, real-time notifications, and player management.
 
+---
+
 ## 🚀 Live Preview
 
-> https://select-player.surge.sh/
+> [https://select-player.surge.sh/](https://select-player.surge.sh/)
 
 ---
 
@@ -15,7 +17,7 @@ Welcome to **XI TEAM**, a React-based web application where users can build thei
 - 🍞 React-Toastify for notifications
 - 🧠 JavaScript (ES6+)
 - 📦 Vite (React Project Setup)
-- 🗃️ LocalStorage (for optional newsletter feature)
+- 🗃️ JSON for player data
 
 ---
 
@@ -38,21 +40,35 @@ Welcome to **XI TEAM**, a React-based web application where users can build thei
 
 ---
 
-## 📰 Optional Feature
+## 📂 Project Structure
 
-- Newsletter subscription that stores email in **LocalStorage**.
-- Personalized greeting shown on reload if email is saved.
+Here’s the project structure for better understanding:
 
----
-
-## 🖼️ Screenshots
-
-> Add screenshots here (UI with player cards, selected players, toasts, etc.)
-
----
-
-## 📁 Project Setup
-
-```bash
-npm install
-npm run dev
+my-xi-team/
+├── public/
+│   ├── footballerData.json       # JSON file containing player data
+│   ├── CNAME                     # Custom domain configuration
+├── src/
+│   ├── assets/                   # Static assets (images, icons, etc.)
+│   │   ├── bg-shadow.png
+│   │   ├── coin.png
+│   │   ├── football-log.jpeg
+│   │   ├── react.svg
+│   ├── Component/                # React components
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.jsx        # Navbar component
+│   │   ├── Hero-Banner/
+│   │   │   ├── Hero.jsx          # Hero banner component
+│   │   ├── Player/
+│   │   │   ├── Player.jsx        # Main Player component
+│   │   │   ├── Available-Player/
+│   │   │   │   ├── AvailablePlayer.jsx  # Available players list
+│   │   │   ├── Selected-Player/
+│   │   │   │   ├── SelectedPlayer.jsx   # Selected players list
+│   ├── App.jsx                   # Main application component
+│   ├── index.css                 # TailwindCSS styles
+│   ├── main.jsx                  # Entry point for React app
+├── tailwind.config.js            # TailwindCSS configuration
+├── vite.config.js                # Vite configuration
+├── package.json                  # Project dependencies and scripts
+├── README.md                     # Project documentation
