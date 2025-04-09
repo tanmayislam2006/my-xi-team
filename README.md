@@ -43,7 +43,7 @@ Welcome to **XI TEAM**, a React-based web application where users can build thei
 ## 📂 Project Structure
 
 Here’s the project structure for better understanding:
-
+```
 my-xi-team/
 ├── public/
 │   ├── footballerData.json       # JSON file containing player data
@@ -72,3 +72,4 @@ my-xi-team/
 ├── vite.config.js                # Vite configuration
 ├── package.json                  # Project dependencies and scripts
 ├── README.md                     # Project documentation
+```

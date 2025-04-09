@@ -14,7 +14,7 @@ export default {
         "sora":["Sora", "sans-serif"],
       },
       backgroundImage:{
-        "hero-bg":"url(./src/assets/bg-shadow.png)"
+        "hero-bg":"url('./src/assets/bg-shadow.png')"
       }
     },
   },
